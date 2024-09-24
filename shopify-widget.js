@@ -3,7 +3,6 @@ window.shopicomUrl = "https://webhook.site";
 
 // Main application function
 var myAppJavaScript = function(jQuery) {
-    console.log("hello")
     // Fetch and inject the Intercom widget
     jQuery.get("/apps/web2chat-proxy", function(response) {
         var parser = new DOMParser();
